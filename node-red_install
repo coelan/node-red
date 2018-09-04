@@ -1,0 +1,16 @@
+1ère installation :
+-< bash <(curl -sL https://raw.githubusercontent.com/node-red/raspbian-deb-package/master/resources/update-nodejs-and-nodered)
+
+Fichier de log :
+-< tail -f /var/log/nodered-install.log
+
+Démarrage service :
+-< node-red-start
+
+Commandes utiles :
+-< node-red-stop = Arrêter manuellement NodeRED
+-< node-red-start = Démarrer manuellement
+-< node-red-log = Permet de visualiser le journal d’exécution
+-< sudo systemctl enable nodered.service = Permet d’activer le démarrage automatique (autostart) de Node-RED au démarrage du système Raspbian
+-< sudo systemctl disable nodered.service = Permet de désactiver le démarrage automatique
+
