@@ -14,3 +14,9 @@ Commandes utiles :
 -< sudo systemctl enable nodered.service = Permet d’activer le démarrage automatique (autostart) de Node-RED au démarrage du système Raspbian
 -< sudo systemctl disable nodered.service = Permet de désactiver le démarrage automatique
 
+Palettes :
+  - Dashboard
+  - Openweathermap
+  - influxDB
+  - moment contrib
+  - darksky
